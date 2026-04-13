@@ -329,19 +329,12 @@ a {
     margin-bottom: 16px;
 }
 
-.story-image-placeholder {
-    background-color: var(--creme);
+.story-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 4px;
     aspect-ratio: 4/5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 60px;
-}
-
-.story-logo {
-    max-width: 240px;
-    opacity: 0.9;
 }
 
 /* ─── Values ─── */
@@ -652,6 +645,36 @@ a {
     text-align: center;
 }
 
+/* ─── Photo Strip ─── */
+.photo-strip {
+    background-color: var(--creme);
+    padding: 0;
+}
+
+.photo-strip-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    max-height: 480px;
+    overflow: hidden;
+}
+
+.photo-strip-item {
+    overflow: hidden;
+}
+
+.photo-strip-item img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s ease;
+}
+
+.photo-strip-item:hover img {
+    transform: scale(1.03);
+}
+
 /* ─── Catering / Events ─── */
 .catering {
     background-color: var(--white);
@@ -720,31 +743,14 @@ a {
 .catering-image {
     display: flex;
     align-items: stretch;
+    overflow: hidden;
 }
 
-.catering-image-placeholder {
-    flex: 1;
-    background-color: var(--creme);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.catering-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     min-height: 400px;
-}
-
-.catering-image-placeholder.catering-image-alt {
-    background-color: var(--bleu-doux);
-}
-
-.catering-placeholder-icon {
-    width: 100px;
-    height: 100px;
-    color: var(--ombre);
-    opacity: 0.4;
-}
-
-.catering-image-alt .catering-placeholder-icon {
-    color: var(--dark);
-    opacity: 0.3;
 }
 
 .catering-text {
@@ -904,9 +910,8 @@ a {
         order: -1;
     }
 
-    .story-image-placeholder {
+    .story-photo {
         aspect-ratio: 1/1;
-        padding: 40px;
     }
 
     .story {
@@ -980,8 +985,9 @@ a {
         direction: ltr;
     }
 
-    .catering-image-placeholder {
+    .catering-photo {
         min-height: 280px;
+        max-height: 400px;
     }
 
     .catering-text {
@@ -994,6 +1000,15 @@ a {
 
     .catering-contact {
         padding: 40px 24px;
+    }
+
+    .photo-strip-inner {
+        grid-template-columns: 1fr;
+        max-height: none;
+    }
+
+    .photo-strip-item img {
+        height: 300px;
     }
 }
 
