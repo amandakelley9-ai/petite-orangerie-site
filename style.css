@@ -188,10 +188,10 @@ a {
 .hero-eyebrow {
     font-family: 'Lato', sans-serif;
     font-size: 11px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: var(--ombre);
+    color: var(--dark);
     margin-bottom: 20px;
 }
 
@@ -232,9 +232,9 @@ a {
 .hero-sub {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
-    color: var(--text-light);
+    color: var(--dark);
     line-height: 2;
 }
 
