@@ -143,6 +143,9 @@ a {
     height: 90vh;
     min-height: 600px;
     max-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -164,21 +167,16 @@ a {
     height: 100%;
     background: linear-gradient(
         170deg,
-        rgba(253, 246, 236, 0.55) 0%,
-        rgba(245, 239, 227, 0.45) 30%,
-        rgba(173, 193, 196, 0.4) 70%,
-        rgba(122, 154, 158, 0.45) 100%
+        rgba(253, 246, 236, 0.45) 0%,
+        rgba(245, 239, 227, 0.35) 30%,
+        rgba(173, 193, 196, 0.3) 70%,
+        rgba(122, 154, 158, 0.35) 100%
     );
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
     z-index: 1;
 }
 
 .hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     z-index: 2;
     text-align: center;
     padding: 40px;
