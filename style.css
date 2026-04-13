@@ -164,13 +164,13 @@ a {
     height: 100%;
     background: linear-gradient(
         170deg,
-        rgba(253, 246, 236, 0.82) 0%,
-        rgba(245, 239, 227, 0.75) 30%,
-        rgba(173, 193, 196, 0.7) 70%,
-        rgba(122, 154, 158, 0.75) 100%
+        rgba(253, 246, 236, 0.55) 0%,
+        rgba(245, 239, 227, 0.45) 30%,
+        rgba(173, 193, 196, 0.4) 70%,
+        rgba(122, 154, 158, 0.45) 100%
     );
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     z-index: 1;
 }
 
