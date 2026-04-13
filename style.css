@@ -143,15 +143,13 @@ a {
     height: 90vh;
     min-height: 600px;
     max-height: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
 .hero-video {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -160,19 +158,27 @@ a {
 
 .hero-overlay {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: linear-gradient(
         170deg,
-        rgba(253, 246, 236, 0.7) 0%,
-        rgba(245, 239, 227, 0.6) 30%,
-        rgba(173, 193, 196, 0.55) 70%,
-        rgba(122, 154, 158, 0.6) 100%
+        rgba(253, 246, 236, 0.82) 0%,
+        rgba(245, 239, 227, 0.75) 30%,
+        rgba(173, 193, 196, 0.7) 70%,
+        rgba(122, 154, 158, 0.75) 100%
     );
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     z-index: 1;
 }
 
 .hero-content {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
     padding: 40px;
