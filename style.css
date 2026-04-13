@@ -161,7 +161,13 @@ a {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(253, 246, 236, 0.55);
+    background: linear-gradient(
+        170deg,
+        rgba(253, 246, 236, 0.7) 0%,
+        rgba(245, 239, 227, 0.6) 30%,
+        rgba(173, 193, 196, 0.55) 70%,
+        rgba(122, 154, 158, 0.6) 100%
+    );
     z-index: 1;
 }
 
