@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petite Orangerie — Glacerie &amp; Pâtisserie | Salt Lake City</title>
+    <meta name="description" content="French-inspired artisanal ice cream, sorbet, and pâtisserie. Coming soon to Salt Lake City, Utah. Fait avec zeste.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍊</text></svg>">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>Coming Soon to Salt Lake City, Utah &nbsp;·&nbsp; Join our list for opening day</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <!-- Replace src with your actual logo file -->
+                <img src="images/logo.png" alt="Petite Orangerie" class="nav-logo-img">
+            </a>
+            <div class="nav-links">
+                <a href="#notre-histoire">Our Story</a>
+                <a href="#la-carte">Menu</a>
+                <a href="#evenements">Events &amp; Catering</a>
+                <a href="#signup">Join Us</a>
+            </div>
+            <button class="nav-mobile-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">glacerie &amp; pâtisserie</p>
+            <h1 class="hero-title">
+                <span class="hero-petite">petite</span>
+                <span class="hero-orangerie">ORANGERIE</span>
+            </h1>
+            <p class="hero-tagline">Fait avec zeste.</p>
+            <div class="hero-divider"></div>
+            <p class="hero-sub">French-inspired artisanal ice cream, sorbet &amp; pastries<br>crafted with real ingredients</p>
+            <a href="#signup" class="hero-cta">Be the First to Know</a>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <span>Orange Cream Classique &nbsp;✦&nbsp; Blood Orange Sorbet &nbsp;✦&nbsp; French Macarons &nbsp;✦&nbsp; Madeleines &nbsp;✦&nbsp; Pistache &nbsp;✦&nbsp; Chocolat Noir &nbsp;✦&nbsp; Caramel au Beurre Salé &nbsp;✦&nbsp; Orange Blossom Gelato &nbsp;✦&nbsp; Citrus Pressé &nbsp;✦&nbsp;</span>
+            <span>Orange Cream Classique &nbsp;✦&nbsp; Blood Orange Sorbet &nbsp;✦&nbsp; French Macarons &nbsp;✦&nbsp; Madeleines &nbsp;✦&nbsp; Pistache &nbsp;✦&nbsp; Chocolat Noir &nbsp;✦&nbsp; Caramel au Beurre Salé &nbsp;✦&nbsp; Orange Blossom Gelato &nbsp;✦&nbsp; Citrus Pressé &nbsp;✦&nbsp;</span>
+        </div>
+    </div>
+
+    <!-- Notre Histoire -->
+    <section class="story" id="notre-histoire">
+        <div class="story-inner">
+            <div class="story-text">
+                <p class="section-eyebrow">Notre Histoire</p>
+                <h2>A place to slow down,<br>taste something real,<br>and feel a little transported.</h2>
+                <div class="story-divider"></div>
+                <p>Petite Orangerie is a French-inspired glacerie and pâtisserie opening in Salt Lake City. We make everything from scratch with ingredients we believe in — real cream, real fruit, real chocolate, real vanilla. No artificial flavors. No corn syrup. No shortcuts.</p>
+                <p>Our menu is built around the orange — Valencia, blood orange, bergamot, orange blossom — alongside French classics like Valrhona chocolat noir, Sicilian pistache, and caramel au beurre salé with fleur de sel from Guérande.</p>
+                <p>We offer naturally vegan sorbets, dairy-free oat milk options, and gluten-free macarons — not as afterthoughts, but as core to who we are.</p>
+            </div>
+            <div class="story-image">
+                <!-- Replace with an actual photo when available -->
+                <div class="story-image-placeholder">
+                    <img src="images/logo.png" alt="Petite Orangerie" class="story-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="values">
+        <div class="values-inner">
+            <div class="value">
+                <div class="value-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="22" r="12" stroke="currentColor" stroke-width="1.2"/>
+                        <path d="M20 10 Q18 6 20 3 Q22 6 20 10Z" stroke="currentColor" stroke-width="1" fill="none"/>
+                        <path d="M20 10 Q14 5 10 7" stroke="currentColor" stroke-width="1" fill="none"/>
+                        <path d="M20 10 Q26 5 30 7" stroke="currentColor" stroke-width="1" fill="none"/>
+                    </svg>
+                </div>
+                <h3>Real Ingredients</h3>
+                <p>Valrhona chocolate, Sicilian pistachio, Boiron fruit purées, Madagascar vanilla. Every ingredient chosen for quality, never for convenience.</p>
+            </div>
+            <div class="value">
+                <div class="value-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 30 Q8 16 20 10 Q32 16 32 30" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                        <line x1="20" y1="10" x2="20" y2="34" stroke="currentColor" stroke-width="1"/>
+                        <line x1="14" y1="20" x2="20" y2="16" stroke="currentColor" stroke-width="1"/>
+                        <line x1="26" y1="22" x2="20" y2="18" stroke="currentColor" stroke-width="1"/>
+                    </svg>
+                </div>
+                <h3>For Everyone</h3>
+                <p>Naturally vegan sorbets. Dairy-free oat milk ice cream. Gluten-free macarons. Options for every family member — no compromises, no asterisks.</p>
+            </div>
+            <div class="value">
+                <div class="value-icon">
+                    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="8" y="14" width="24" height="18" rx="2" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                        <path d="M8 20 L32 20" stroke="currentColor" stroke-width="1"/>
+                        <circle cx="20" cy="10" r="4" stroke="currentColor" stroke-width="1.2" fill="none"/>
+                    </svg>
+                </div>
+                <h3>Handcrafted Daily</h3>
+                <p>Small-batch ice cream churned every morning. Macarons piped by hand. Madeleines baked fresh. Nothing from a factory, everything from our kitchen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- La Carte Preview -->
+    <section class="menu" id="la-carte">
+        <p class="section-eyebrow">La Carte</p>
+        <h2>A taste of what's coming</h2>
+        <div class="menu-grid">
+            <div class="menu-category">
+                <h3>Glaces &amp; Sorbets</h3>
+                <ul>
+                    <li>Orange Cream Classique</li>
+                    <li>Blood Orange Sorbet <span class="tag">vegan</span></li>
+                    <li>Oat Milk Orange Swirl <span class="tag">dairy-free</span></li>
+                    <li>Orange Blossom Gelato</li>
+                    <li>Chocolat Noir — Valrhona 70%</li>
+                    <li>Pistache — Sicilian</li>
+                    <li>Caramel au Beurre Salé</li>
+                    <li>Vanille de Madagascar</li>
+                    <li>Seasonal Expression</li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Pâtisserie</h3>
+                <ul>
+                    <li>Orange Macarons <span class="tag">gluten-free</span></li>
+                    <li>Pistachio Macarons <span class="tag">gluten-free</span></li>
+                    <li>Chocolat-Orange Macarons <span class="tag">gluten-free</span></li>
+                    <li>Orange Madeleines</li>
+                    <li>Orange Posset</li>
+                    <li>Mixed Macaron Gift Box</li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Boissons</h3>
+                <ul>
+                    <li>Orange Cream Float</li>
+                    <li>Le Petit Float + Boba <span class="tag">kids</span></li>
+                    <li>Oat Milk Orange Frappé <span class="tag">dairy-free</span></li>
+                    <li>Citrus Pressé</li>
+                    <li>Chocolat Chaud à l'Orange</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Événements & Catering -->
+    <section class="catering" id="evenements">
+
+        <!-- Catering Hero -->
+        <div class="catering-hero">
+            <div class="catering-hero-inner">
+                <p class="section-eyebrow">Événements &amp; Réceptions</p>
+                <h2>Petite Orangerie<br>Events &amp; Catering</h2>
+                <div class="catering-hero-divider"></div>
+                <p class="catering-hero-sub">Bring a touch of France to your most memorable moments.<br>Weddings, celebrations, corporate gatherings — made unforgettable with artisanal desserts.</p>
+            </div>
+        </div>
+
+        <!-- Catering Block 1: Weddings -->
+        <div class="catering-block">
+            <div class="catering-block-inner">
+                <div class="catering-image">
+                    <div class="catering-image-placeholder">
+                        <!-- Replace with actual photo -->
+                        <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="catering-placeholder-icon">
+                            <circle cx="60" cy="60" r="40" stroke="currentColor" stroke-width="0.8"/>
+                            <path d="M60 20 Q56 10 60 4 Q64 10 60 20Z" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <path d="M60 20 Q48 8 38 12" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <path d="M60 20 Q72 8 82 12" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <circle cx="48" cy="55" r="14" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                            <circle cx="72" cy="55" r="14" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                            <circle cx="60" cy="42" r="10" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="catering-text">
+                    <p class="catering-label">A Celebration to Remember</p>
+                    <h3>Weddings &amp; Private Events</h3>
+                    <p>Imagine a dessert table where every detail has been considered — a tower of French macarons in your wedding colors, scoops of blood orange sorbet served in hollowed orange halves, warm madeleines passed on copper trays. We work with you to design a dessert experience that feels personal, beautiful, and genuinely delicious.</p>
+                    <p>From intimate garden parties to grand receptions, Petite Orangerie brings something your guests have never seen — and won't forget.</p>
+                    <a href="mailto:hello@petiteorangerie.com?subject=Event Inquiry" class="catering-cta">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catering Block 2: Corporate -->
+        <div class="catering-block catering-block-reverse">
+            <div class="catering-block-inner">
+                <div class="catering-image">
+                    <div class="catering-image-placeholder catering-image-alt">
+                        <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="catering-placeholder-icon">
+                            <rect x="25" y="30" width="70" height="60" rx="3" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <line x1="25" y1="50" x2="95" y2="50" stroke="currentColor" stroke-width="0.5"/>
+                            <circle cx="60" cy="40" r="6" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <rect x="35" y="58" width="20" height="14" rx="2" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                            <rect x="65" y="58" width="20" height="14" rx="2" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                            <rect x="35" y="76" width="50" height="6" rx="1" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="catering-text">
+                    <p class="catering-label">Elevate the Everyday</p>
+                    <h3>Corporate &amp; Team Events</h3>
+                    <p>Client appreciation. Team milestones. Product launches. Holiday gatherings. We provide beautifully branded dessert experiences that elevate any corporate occasion — from a simple macaron gift box on each desk to a full ice cream and pastry spread for 200.</p>
+                    <p>Custom packaging and branded elements available for corporate gifting programs.</p>
+                    <a href="mailto:hello@petiteorangerie.com?subject=Corporate Inquiry" class="catering-cta">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catering Block 3: The Cart -->
+        <div class="catering-block">
+            <div class="catering-block-inner">
+                <div class="catering-image">
+                    <div class="catering-image-placeholder">
+                        <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="catering-placeholder-icon">
+                            <rect x="20" y="35" width="80" height="50" rx="4" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <line x1="20" y1="55" x2="100" y2="55" stroke="currentColor" stroke-width="0.5"/>
+                            <circle cx="38" cy="92" r="7" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <circle cx="82" cy="92" r="7" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <line x1="20" y1="85" x2="100" y2="85" stroke="currentColor" stroke-width="0.6"/>
+                            <rect x="35" y="25" width="50" height="10" rx="2" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                            <path d="M55 25 L55 15 Q60 10 65 15 L65 25" stroke="currentColor" stroke-width="0.6" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="catering-text">
+                    <p class="catering-label">A Unique Experience</p>
+                    <h3>The Orangerie Cart</h3>
+                    <p>Our mobile dessert cart brings Petite Orangerie directly to your event — outdoors, indoors, anywhere the moment calls for something special. The cart arrives styled in our signature Bleu Doux with fresh citrus and copper accents, offering guests a curated selection of scoops, sorbets, and French pastries.</p>
+                    <p>Perfect for wedding receptions, garden parties, community festivals, and outdoor celebrations throughout Utah.</p>
+                    <a href="mailto:hello@petiteorangerie.com?subject=Cart Inquiry" class="catering-cta">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catering Block 4: Gift Boxes -->
+        <div class="catering-block catering-block-reverse">
+            <div class="catering-block-inner">
+                <div class="catering-image">
+                    <div class="catering-image-placeholder catering-image-alt">
+                        <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" class="catering-placeholder-icon">
+                            <rect x="25" y="40" width="70" height="50" rx="3" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <rect x="25" y="32" width="70" height="12" rx="2" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <line x1="60" y1="32" x2="60" y2="90" stroke="currentColor" stroke-width="0.6"/>
+                            <path d="M60 32 Q50 20 40 28" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <path d="M60 32 Q70 20 80 28" stroke="currentColor" stroke-width="0.8" fill="none"/>
+                            <circle cx="40" cy="60" r="5" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                            <circle cx="55" cy="65" r="5" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                            <circle cx="70" cy="58" r="5" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                            <circle cx="80" cy="68" r="5" stroke="currentColor" stroke-width="0.5" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="catering-text">
+                    <p class="catering-label">The Perfect Gesture</p>
+                    <h3>Gift Boxes &amp; Favors</h3>
+                    <p>Our macaron gift boxes make unforgettable wedding favors, client gifts, and holiday presents. Six handmade French macarons — orange, pistachio, and salted caramel — arranged in a branded box with tissue and ribbon. Minimum order of 20 boxes for events.</p>
+                    <p>Custom flavor selections and personalized packaging available for orders of 50+.</p>
+                    <a href="mailto:hello@petiteorangerie.com?subject=Gift Box Inquiry" class="catering-cta">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catering Contact -->
+        <div class="catering-contact">
+            <p>Let us help you make every moment extraordinary.</p>
+            <p class="catering-contact-email">Reach us at <a href="mailto:hello@petiteorangerie.com">hello@petiteorangerie.com</a></p>
+        </div>
+
+    </section>
+
+    <!-- Signup -->
+    <section class="signup" id="signup">
+        <div class="signup-inner">
+            <p class="section-eyebrow">Rejoignez-Nous</p>
+            <h2>Be the first to taste</h2>
+            <p class="signup-sub">Join our list and we'll let you know the moment our doors open.<br>Early subscribers get an invitation to our friends &amp; family preview tasting.</p>
+            <!-- Replace action URL with your Formspree endpoint or Mailchimp embed -->
+            <form class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Join the List</button>
+            </form>
+            <p class="signup-note">No spam, ever. Just one beautiful email when we're ready for you.</p>
+        </div>
+    </section>
+
+    <!-- Location Teaser -->
+    <section class="location">
+        <div class="location-inner">
+            <p class="section-eyebrow">Bientôt</p>
+            <h2>Salt Lake City, Utah</h2>
+            <p>Opening 2026</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <p class="footer-name">petite<br><strong>ORANGERIE</strong></p>
+                <p class="footer-descriptor">glacerie &amp; pâtisserie</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://instagram.com/petiteorangerie" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://tiktok.com/@petiteorangerie" target="_blank" rel="noopener">TikTok</a>
+                <a href="mailto:hello@petiteorangerie.com">Contact</a>
+            </div>
+            <div class="footer-tagline">
+                <p>Fait avec zeste.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Petite Orangerie LLC &nbsp;·&nbsp; Woman-Owned Small Business &nbsp;·&nbsp; Salt Lake City, UT</p>
+        </div>
+    </footer>
+
+</body>
+</html>
