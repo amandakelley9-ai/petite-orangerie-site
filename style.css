@@ -172,6 +172,8 @@ a {
         rgba(173, 193, 196, 0.45) 70%,
         rgba(122, 154, 158, 0.5) 100%
     );
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     z-index: 1;
 }
 
