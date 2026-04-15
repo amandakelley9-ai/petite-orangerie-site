@@ -187,7 +187,8 @@ a {
 }
 
 .hero-logo {
-    max-width: 360px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     display: block;
     margin: 0 auto 20px;
@@ -198,6 +199,7 @@ a {
     font-weight: 300;
     font-size: clamp(28px, 4vw, 42px);
     letter-spacing: 12px;
+    padding-left: 12px;
     color: var(--dark);
     margin-bottom: -4px;
 }
@@ -207,6 +209,7 @@ a {
     font-weight: 500;
     font-size: clamp(52px, 8vw, 90px);
     letter-spacing: 14px;
+    padding-left: 14px;
     color: var(--dark);
     line-height: 1.1;
 }
