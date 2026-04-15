@@ -190,6 +190,9 @@ a {
     max-width: 160px;
     height: auto;
     margin: 0 auto 24px;
+    position: relative;
+    left: 18%;
+    transform: translateX(-50%);
 }
 
 .hero-petite {
